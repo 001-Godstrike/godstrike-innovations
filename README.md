@@ -1,71 +1,98 @@
-# Godstrike Innovations Portfolio
+GODSTRIKE INNOVATIONS
 
-A mobile-first, static portfolio for Godstrike Innovations. Built with HTML, CSS and vanilla JavaScript so it can be edited and served directly from Termux.
+Technology • Creativity • Innovation
 
-## 1. Personalise the site
+Godstrike Innovations is a technology and creative brand focused on building digital solutions, developing software projects, providing creative design services, and delivering quality printing and personalised merchandise.
 
-Open `js/config.js` and replace:
+Our goal is to turn ideas into practical solutions through technology, creativity, and continuous learning.
 
-- `[Your Name]` in `index.html` and `js/config.js`
-- `your-email@example.com` with your public contact email
-- `https://github.com/your-username` with your GitHub profile
+---
 
-Also review every project description and status before publishing. Add only real screenshots, public repository links and working demos.
+What We Do
 
-## 2. Run in Termux
+Software & Web Development
 
-Install a local web server:
+- Website design and development
+- Web-based applications
+- Custom digital solutions
+- Software experimentation and development
 
-```bash
-pkg update && pkg upgrade
-pkg install python
-```
+Creative Design & Printing
 
-Move into the extracted project folder. For example:
+- Flyers, banners and business cards
+- Stickers and promotional materials
+- Photo frames and personalised gifts
+- Custom mugs and throw pillows
+- General printing and creative design services
 
-```bash
-cd ~/godstrike-innovations
+Technology & Innovation
+
+- Artificial intelligence projects
+- Automation and digital tools
+- Cybersecurity learning and exploration
+- Computing and technology experiments
+
+---
+
+Featured Projects
+
+A selection of projects developed under Godstrike Innovations.
+
+Project| Description
+LASU Attendance System| A web-based attendance management project.
+GodstrikeBot| An evolving chatbot and automation project.
+Learn Coding| A platform focused on coding education and learning.
+AVreX| A digital platform project.
+Gold Mine| A web-based project showcased in the portfolio.
+
+Project availability, features and development status may vary.
+
+---
+
+Technology Stack
+
+The portfolio website is built with:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+The website uses a responsive layout and can be served locally without a backend.
+
+Individual projects may use different technologies and services.
+
+---
+
+Run Locally
+
+You can run the portfolio using Termux or any environment with Python installed.
+
+git clone https://github.com/001-Godstrike/godstrike-innovations.git
+cd godstrike-innovations
 python -m http.server 8080
-```
 
-Open this address in your phone browser:
+Open the following address in your browser:
 
-```text
 http://127.0.0.1:8080
-```
 
-Stop the server with `CTRL + C`.
+Stop the server with "CTRL + C".
 
-If you want to serve the site from shared storage, copy the folder there first. Termux may need storage permission:
+---
 
-```bash
-termux-setup-storage
-```
+Deployment
 
-## 3. Deploy
+The portfolio is a static website and can be deployed using:
 
-This is a static site. It can be deployed using GitHub Pages, Cloudflare Pages or Vercel. No database or server-side runtime is required for this first version.
+- GitHub Pages
+- Cloudflare Pages
+- Vercel
 
-## 4. Before public launch
+No server-side runtime or database is required for the portfolio itself.
 
-- Replace the sample name, email and GitHub URL.
-- Confirm your course and biography wording.
-- Check project descriptions and status labels for accuracy.
-- Remove any private data, credentials, student records or attendance codes.
-- Add your own project screenshots and design work.
-- Test all links on mobile.
-- Add a privacy notice if you later add analytics or a contact form that collects data.
+---
 
-## 5. Current limitations
+Project Structure
 
-- The contact action opens the visitor's email application; it does not send messages into a database.
-- Project cards are static and do not yet have individual case-study pages.
-- No admin dashboard, authentication or database is included.
-- External Google Fonts require an internet connection; system fonts provide a fallback.
-
-## Folder structure
-
-```text
 godstrike-innovations/
 ├── index.html
 ├── README.md
@@ -76,5 +103,15 @@ godstrike-innovations/
 │   └── main.js
 └── assets/
     └── images/
-        └── favicon.svg
-```
+
+---
+
+Connect
+
+For project enquiries, collaborations, creative services and technology-related opportunities, use the contact information provided on the official website.
+
+---
+
+GODSTRIKE INNOVATIONS
+
+Building ideas. Creating solutions. Exploring possibilities.
