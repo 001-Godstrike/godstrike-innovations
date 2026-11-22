@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Godstrike Innovations">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#54a2ff"/><stop offset="1" stop-color="#10264d"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#a8eaff"/></linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="17" fill="#071225"/>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="url(#bg)" stroke="#9bdcff" stroke-opacity=".55"/>
+  <path d="M17 22 24 29 32 16 40 29 47 22 44 39 20 39Z" fill="none" stroke="url(#shine)" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M20 46h24" stroke="#b9edff" stroke-width="3" stroke-linecap="round"/>
+</svg>
